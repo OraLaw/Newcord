@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------ 🌷 BASE ------------------------------------------------------------ */
-
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 /* ---- Style ---- */
 .theme-dark {
     --header-primary: #fff;
@@ -10,6 +10,10 @@
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
     --interactive-muted: #72767d;
+    --background-image: url('https://cutewallpaper.org/21/1920x1080-animated-gif/Live-Wallpaper-Gfif-Siboneycubancuisine.com.gif');
+    --background-image-blur: 5px;
+    --background-image-size: cover;
+    --background-image-position: center;
     --background-primary: #292841;
     --background-secondary: #232438;
     --background-secondary-alt: #1d1f2f;
@@ -22,6 +26,23 @@
     --background-modifier-active: rgba(62, 63, 101, 0.24);
     --background-modifier-selected: rgba(62, 63, 101, 0.32);
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --home-button-image: url('https://cutewallpaper.org/21/1920x1080-animated-gif/Live-Wallpaper-Gfif-Siboneycubancuisine.com.gif');
+    --home-button-size: cover;
+    --home-button-position: center;
+    --rs-small-spacing: 2px;
+--rs-medium-spacing: 3px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-medium-width: 3px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #1317e9;
+--rs-idle-color: #db7fe7;
+--rs-dnd-color: #13a5e9;
+--rs-offline-color: #000000;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #5B646FFF;
+--rs-phone-visible: block;
     --info-positive-text: #fff;
     --info-warning-text: #fff;
     --info-danger-text: #fff;
